@@ -27,10 +27,21 @@ body {
 
 .btn {
   position: absolute;
+  opacity: 0.5;
+  color: #fff;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
 }
 
 .prev {
-  top: 50%;
-  transform: translate(0, -50%);
-  color: #fff;
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
 }
